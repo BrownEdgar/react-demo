@@ -2,6 +2,7 @@
 
 .Navbar__nav{
     max-width:1440px ;
+    background-color: #FFFFFF;
     height: 99px;
     display: flex;
     justify-content: space-around;
@@ -33,12 +34,12 @@
     max-width: 528px;
     display: flex;
     height: 99px;
-    justify-content: space-evenly;
+    text-align: center;
     align-items: center;
 
      li{
         list-style: none;
-        width: 83px;
+        width: 176px;
         height: 15px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;

@@ -1,5 +1,11 @@
 import "./navbar.css"
 
+const navData = [
+    {tittle:"PRODUCTS",id:1},
+    {tittle:"EXPLORE",id:2},
+    {tittle:"SHOP",id:3}
+]
+
 const Navbar = () => {
   return (
     <>
@@ -13,11 +19,12 @@ const Navbar = () => {
         </div>
 
        
-            <ul className="Navbar__menu">
-                <li>PRODUCTS</li>
-                <li>EXPLORE</li>
-                <li>SHOP</li>
-            </ul>
+             <ul className="Navbar__menu">
+                {navData.map((elem)=>{
+                    return <li key={elem.id}>{elem.tittle}</li>
+                })}
+        </ul>
+
 
             <div className="Navbar__showrooms">
                 <img src="../public/roomlogo/Frame.png" alt="Frame" />
