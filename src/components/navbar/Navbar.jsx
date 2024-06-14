@@ -12,9 +12,19 @@ const Navbar = () => {
             <img src="../public/roomlogo/Vector (3).png" alt="Vector" />
         </div>
 
-        <div className="Navbar__menu">
-            
-        </div>
+       
+            <ul className="Navbar__menu">
+                <li>PRODUCTS</li>
+                <li>EXPLORE</li>
+                <li>SHOP</li>
+            </ul>
+
+            <div className="Navbar__showrooms">
+                <img src="../public/roomlogo/Frame.png" alt="Frame" />
+                <p>SHOWROOMS</p>
+
+            </div>
+      
 
 
     
