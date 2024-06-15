@@ -1,83 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-.Navbar__nav{
-    max-width:1440px ;
-    background-color: #FFFFFF;
-    height: 99px;
-    display: flex;
-    justify-content: space-around;
-    gap: 15px;
-    margin-top: 40px;
-}
-.Navbar__room{
-    width: 50px;
-    height: 50px;
-    margin-top: 25px;
-    margin-left: 48px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    
-    img{
-        width: 10.76px;
-        height: 14.04px;
-        margin-top: 0.28px;
-        margin-left: 0.33px;
-        color:#000000 ;
-        align-self: center;
-
-    }
-    
+.Navbar__nav {
+  max-width: 1440px;
+  background-color: #FFFFFF;
+  height: 99px;
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  margin-top: 40px;
 }
 
-.Navbar__menu{
-    max-width: 528px;
-    display: flex;
-    height: 99px;
-    text-align: center;
-    align-items: center;
+.Navbar__room {
+  width: 50px;
+  height: 50px;
+  margin-top: 25px;
+  margin-left: 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
 
-     li{
-        list-style: none;
-        width: 176px;
-        height: 15px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 14.4px;
-        letter-spacing: 2px;
-   
-    }
+  img {
+    width: 10.76px;
+    height: 14.04px;
+    margin-top: 0.28px;
+    margin-left: 0.33px;
+    color: #000000;
+    align-self: center;
+
+  }
 
 }
 
-.Navbar__showrooms{
-    width: 173px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    img{
-        width: 20px;
-        height: 24px;
-        margin: 38px 0 0 20px;
-    }
-    p{
-        width: 103px;
-        color: #000000;
-        height: 15px;
-        margin: 43px 0 0 42px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 14.4px;
-        letter-spacing: 2px;
+.Navbar__menu {
+  max-width: 528px;
+  display: flex;
+  height: 99px;
+  text-align: center;
+  align-items: center;
 
-    }
+  li {
+    list-style: none;
+    width: 176px;
+    height: 15px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.4px;
+    letter-spacing: 2px;
+
+  }
+
 }
 
+.Navbar__showrooms {
+  width: 173px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
 
+  img {
+    width: 20px;
+    height: 24px;
+    margin: 38px 0 0 20px;
+  }
 
+  p {
+    width: 103px;
+    color: #000000;
+    height: 15px;
+    margin: 43px 0 0 42px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.4px;
+    letter-spacing: 2px;
 
-
-
-
+  }
+}
