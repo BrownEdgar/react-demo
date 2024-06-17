@@ -1,10 +1,10 @@
 import React from 'react'
 import Slider from 'react-slick';
-
+import './Slider.css';
 const images = [
-    { src: 'sld1.jpg', alt: 'Image 1' },
-    { src: 'sld3.jpg', alt: 'Image 2' },
-    { src: 'sld3.jpg', alt: 'Image 3' },
+    { src: 'sliderImages/sld1.jpg', alt: 'Image 1' },
+    { src: 'sliderImages/sld2.png', alt: 'Image 2' },
+    { src: 'sliderImages/sld3.jpg', alt: 'Image 3' },
    
   ];
 const SliderComponent = () => {

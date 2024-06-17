@@ -1,12 +1,15 @@
-import React from 'react'
-import SliderComponent from './components/SliderComponent'
-import SectionComponent from './components/SectionComponent'
+
+import SliderComponent from './components//slider/SliderComponent'
+import SectionComponent from './components/slider/SectionComponent'
+import Navbar from "./components/navbar/Navbar"
 export default function App() {
   return (
-<div>
-
+<div className='App'>
+<Navbar />
 <SliderComponent />
 <SectionComponent/>
 </div>
+
   )
 }
+
