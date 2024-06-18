@@ -1,9 +1,8 @@
 import React from 'react';
 import "./Logo.css";
 
-const Logo = () => {
-  const logos = [...Array(18).keys()];
-
+function Logo() {
+  const logos = Array.from({ length: 18 });
 
   return (
     <div className='Logo'>
@@ -12,13 +11,12 @@ const Logo = () => {
         <p>Over 3,000 and counting.</p>
       </div>
       <div className='Logo__Section'>
-        {logos.map((logo, index) => (
+        {logos.map((_, index) => (
           <img key={index} src={`./src/assets/img/logo${index + 1}.png`} alt={`Logo ${index + 1}`} />
         ))}
       </div>
     </div>
   );
 };
-
 
 export default Logo;
