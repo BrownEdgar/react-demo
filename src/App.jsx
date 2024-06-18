@@ -1,15 +1,16 @@
-
+import Navbar from "./components/navbar/Navbar"
+import Poster from './components/Poster/Poster'
 import SliderComponent from './components//slider/SliderComponent'
 import SectionComponent from './components/slider/SectionComponent'
-import Navbar from "./components/navbar/Navbar"
+
 export default function App() {
   return (
-<div className='App'>
-<Navbar />
-<SliderComponent />
-<SectionComponent/>
-</div>
-
+    <div className='App'>
+      <Navbar />
+      <Poster/>
+      <SliderComponent />
+      <SectionComponent/>
+    </div>
   )
 }
 

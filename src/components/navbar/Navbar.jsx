@@ -1,4 +1,4 @@
-import "./navbar.css"
+import "./Navbar.css"
 
 const navData = [
   { tittle: "PRODUCTS", id: 1 },
