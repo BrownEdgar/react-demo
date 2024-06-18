@@ -1,0 +1,50 @@
+.Logo {
+  width: 1090px;
+  height: 560px;
+  margin: 20px auto;
+}
+
+.Logo__Title {
+  width: 940px;
+  height: 48px;
+  text-align: center;
+
+  h1 {
+    font-weight: 600;
+    margin-left: 150px;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 400;
+    color: #1a1a1a;
+  }
+
+  p {
+    margin-top: 20px;
+    margin-left: 405px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    width: 280px;
+    height: 36px;
+
+  }
+}
+
+.Logo__Section {
+  width: 1144px;
+  height: 326px;
+  margin-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 110px;
+  height: 70px;
+  margin: 10px 30px;
+}
