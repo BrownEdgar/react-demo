@@ -1,8 +1,12 @@
-import React from 'react'
+import Navbar from "./components/navbar/Navbar"
 import Poster from './components/Poster/Poster'
+
 const App = () => {
   return (
-    <div><Poster/></div>
+    <div className='App'>
+      <Navbar />
+    <Poster/>
+    </div>
   )
 }
 
