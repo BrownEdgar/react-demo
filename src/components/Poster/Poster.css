@@ -1,0 +1,38 @@
+.Poster {
+  padding: 20px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.Poster__img {
+  width: 100%;
+  display: inline-block;
+  height: 748px;
+}
+
+.Poster__txt {
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  gap: 50px;
+  height: 174px;
+}
+
+.Poster__txt h3 {
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 400;
+  color: #1A1A1A;
+  width: 355px;
+}
+
+.Poster__text {
+  font-size: 20px;
+  line-height: 40px;
+  color: #AAAAAA;
+  font-weight: 300;
+  text-align: left;
+  width: 50%;
+}
